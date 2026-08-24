@@ -1,6 +1,6 @@
-baseURL: https://mattnet.de/
+baseURL: https://bunterwelten.de/
 languageCode: de-de
-title: Mattnet
+title: Bunterwelten
 theme: ["PaperMod"]
 
 enableRobotsTXT: true
@@ -18,9 +18,9 @@ caches:
 
 params:
   env: production
-  title: Mattnet
-  description: "Mattnet is a blog about software development, technology and other stuff. Written by Matt."
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Bunterwelten
+  description: "Bunterwelten"
+  keywords: [Portfolio]
   author: Matt
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
@@ -62,16 +62,11 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there, I'm Matt \U0001F44B"
+    Title: "Hi there"
     Content: |
-      "Ich bin DevOps Spezialist und auf diesem Blog teile ich meine Erfahrungen, Tipps und Tricks rund um Softwareentwicklung, 
-      Cloud Computing und andere spannende Themen."
+      ""
 
-  socialIcons:
-    - name: linkedin
-      url: "https://www.linkedin.com/in/matthiasmai/"
-    - name: github
-      url: "https://github.com/matt-mai"
+  socialIcons: []
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -90,12 +85,4 @@ params:
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
 menu:
-  main:
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 10
-    - identifier: projects
-      name: projects
-      url: /projects/
-      weight: 20
+  main: []
